@@ -76,7 +76,7 @@ export default class App extends React.Component {
   _uploadData = () => {
     let data = this.state.data;
     if (data.length != 0) {
-      fetch('https://team8backend.serveo.net/upload_data/XMUtuTe2xcv7xrOIKgdwNBHMll1bhxBy', {
+      fetch('137.184.6.244/upload_data/bogus/', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
